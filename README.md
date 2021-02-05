@@ -1,4 +1,5 @@
 # Creando-y-reduciendo-OBDD-
+Autor: Diego González Chávez
 
 Proyecto creado para la materia de lógica computacional
 
