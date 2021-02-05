@@ -2,16 +2,17 @@
 
 Proyecto creado para la materia de lógica computacional
 
-El programa es creado con Python3.
+El programa es creado con Python3 y Antrl4. 
+Antlr4 es usado para crear un árbol sintáctico el cual sirve para evaluar las funciones booleanas y extraer las variables implicadas en cada función. La gramática se encuentra el archivo ExpBool.g4
 
-El comando de ejecucion es el siguiente
+El comando de ejecución es el siguiente
   
 ```python
 python main.py #funcion1 #funcion2 #operacion
 ```
-Donde ```#funcion1``` y ```#funcion2``` son funciones booleanas de las cuales se crea y reduce su OBDD y ```#operacion``` es la operacion a realizar entre OBDDs
+Donde ```#funcion1``` y ```#funcion2``` son funciones booleanas de las cuales se crea y reduce su OBDD y ```#operacion``` es la operación a realizar entre OBDDs
 
-Las funciones deben deben seguir el siguiente formato 
+Las funciones deben seguir el siguiente formato:
 
 ``` "NombreFuncion := FuncionBooleana" ```
 
@@ -179,6 +180,6 @@ Tambien el ROBDD de la función ```f := (a or b) and c or d```
 
 ![image](https://drive.google.com/uc?export=view&id=1Z3gnpPiAV78Z5-i9MmH1s8Lwf03qtB-w)
 
-y el ROBDD de la operacion de los ROBDD de las dos funciones anteriores
+y el ROBDD de la operación de los ROBDD de las dos funciones anteriores
 
 ![image](https://drive.google.com/uc?export=view&id=1ro-dwbqWRWqnwP4AWwMhCbN4rnCY7Ih2)
