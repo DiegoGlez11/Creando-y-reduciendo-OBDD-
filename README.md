@@ -25,6 +25,9 @@ Los operandos entre OBDDs son:
 3. xor ```xor```
 4. complemento ```"¬"```
 
+Es importante mencionar que el orden de cada OBDD es dado a como van apareciendo las variables de izquierda a derecha dentro de la función boolena. Si la aparicion de la variables difiere entre ambas funciones solo se hace la reducción de ambas funciones con su tabla de verdad pero no la operacin entre OBDDs.
+por ejemplo```K:= a1 and a2 and a3``` y ```H:= a3 and a2 a1``` contienen las mismas variables pero diferente orden, dado que la aparición de las variables difere, el la primera función aparece a1 al inicio y en la segunda al final, lo que provoca que solo se genere la tabla de verdad y los ROBDD de ambas funciones pero no la operacion entre ambos ROBDD porque su orden es diferente. 
+
 ## Ejemplo: 
 
 ```python
